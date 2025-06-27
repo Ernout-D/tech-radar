@@ -1,7 +1,7 @@
 # Motivation
 
-At [Zalando](http://zalando.de), we maintain a [public Tech
-Radar](http://zalando.github.io/tech-radar/) to help our engineering teams
+At [Hot ITem](http://hotitem.de), we maintain a [public Tech
+Radar](http://hotitem.github.io/tech-radar/) to help our engineering teams
 align on technology choices. It is based on the [pioneering work
 by ThoughtWorks](https://www.thoughtworks.com/radar).
 
@@ -10,7 +10,7 @@ This repository contains the code to generate the visualization:
 Feel free to use and adapt it for your own purposes.
 
 > [!NOTE]
-> Since v0.12, we're using d3.js v7. See [related PR](https://github.com/zalando/tech-radar/pull/197/files)
+> Since v0.12, we're using d3.js v7. See [related PR](https://github.com/hotitem/tech-radar/pull/197/files)
 > if you need to apply changes in your fork.
 
 ## Usage
@@ -19,7 +19,7 @@ Feel free to use and adapt it for your own purposes.
 
 ```html
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script src="https://zalando.github.io/tech-radar/release/radar-0.12.js"></script>
+<script src="https://hotitem.github.io/tech-radar/release/radar-0.12.js"></script>
 ```
 
 2. insert an empty `svg` tag:
@@ -32,7 +32,7 @@ Feel free to use and adapt it for your own purposes.
 
 ```js
 radar_visualization({
-  repo_url: "https://github.com/zalando/tech-radar",
+  repo_url: "https://github.com/hotitem/tech-radar",
   svg_id: "radar",
   width: 1450,
   height: 1000,
@@ -79,7 +79,7 @@ Entries are positioned automatically so that they don't overlap. The "scale" par
 in adjusting the size of the radar.
 
 As a working example, you can check out `docs/index.html` &mdash; the source of our [public Tech
-Radar](http://zalando.github.io/tech-radar/).
+Radar](http://hotitem.github.io/tech-radar/).
 
 ## Deployment
 
@@ -110,7 +110,7 @@ http://localhost:3000/
 ```
 The MIT License (MIT)
 
-Copyright (c) 2017-2025 Zalando SE
+Copyright (c) 2017-2025 Hot ITem SE
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

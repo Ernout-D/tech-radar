@@ -1,570 +1,367 @@
 {
   "date": "2025.05",
+  "quadrants": [
+    {
+      "name": "Technische tools"
+    },
+    {
+      "name": "Functionele tools"
+    },
+    {
+      "name": "Platform"
+    },
+    {
+      "name": "Technieken"
+    }
+  ],
+  "rings": [
+    {
+      "name": "ADOPT",
+      "color": "#5ba300"
+    },
+    {
+      "name": "TRIAL",
+      "color": "#009eb0"
+    },
+    {
+      "name": "ASSESS",
+      "color": "#c7ba00"
+    },
+    {
+      "name": "HOLD",
+      "color": "#e09b96"
+    }
+  ],
   "entries": [
     {
-      "quadrant": 3,
+      "quadrant": 0,
+      "quadrant_text": "Technische tools",
+      "ring": 3,
+      "ring_text": "Hold",
+      "label": "CoPilot in Azure",
+      "active": true,
+      "moved": 0,
+      "description": "Copilot voor het realiseren van cloud infrastructuur: https://learn.microsoft.com/nl-nl/azure/copilot/overview",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
       "ring": 1,
-      "label": "AWS Athena",
+      "ring_text": "Trial",
+      "label": "HI GPT",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Genereren van definities objecten, doelstellingen en andere klantinformaties, marktonderzoek, etc",
+      "isNew": false
     },
     {
-      "quadrant": 3,
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
+      "ring": 3,
+      "ring_text": "Retired",
+      "label": "Midjourney",
+      "active": true,
+      "moved": 0,
+      "description": "Image generator voor marketing t.b.v marketing en powerpoint content",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
       "ring": 0,
-      "label": "AWS EMR",
+      "ring_text": "Adopt",
+      "label": "Adobe AI",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "AI ondersteuning bij het genereren en optimaliseren van Images voor Marketing",
+      "isNew": false
     },
     {
-      "quadrant": 3,
+      "quadrant": 2,
+      "quadrant_text": "Platform",
       "ring": 2,
-      "label": "AWS Glue",
+      "ring_text": "Assess",
+      "label": "Databricks AI/BI",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "AI-assisted visual insights, integrated within your data platform.",
+      "isNew": false
     },
     {
-      "quadrant": 3,
+      "quadrant": 2,
+      "quadrant_text": "Platform",
       "ring": 2,
-      "label": "AWS Lake Formation",
+      "ring_text": "Assess",
+      "label": "Databricks Mosaic AI",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Omgeving voor AI agents en ML oplossingen",
+      "isNew": false
     },
     {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Amazon Translate",
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 3,
+      "ring_text": "Hold",
+      "label": "M365 CoPilot",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Productiviteitstooling voor de MS Office suite.",
+      "isNew": false
     },
     {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Apache Airflow",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Databricks",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Flink",
-      "link": "https://engineering.zalando.com/tags/apache-flink.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Google BigQuery",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 1,
-      "label": "Presto",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
-      "ring": 0,
-      "label": "Spark",
-      "link": "https://engineering.zalando.com/tags/apache-spark.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 3,
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
       "ring": 2,
-      "label": "Streamlit",
+      "ring_text": "Assess",
+      "label": "On Laptop LLM",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "LLM / GPT op lokale laptops draaien m.b.v. Ollama",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
+      "ring": 1,
+      "ring_text": "Trial",
+      "label": "ChatGPT (Teams)",
+      "active": true,
+      "moved": 0,
+      "description": "Genereren van definities objecten, doelstellingen en andere klantinformaties, marktonderzoek, etc",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Perplexity",
+      "active": true,
+      "moved": 0,
+      "description": "Genereren van definities objecten, doelstellingen en andere klantinformaties",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
+      "ring": 1,
+      "ring_text": "Trial",
+      "label": "Dall-E 3",
+      "active": true,
+      "moved": 0,
+      "description": "Genereren van afbeeldingen voor oa klantpresentaties",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 1,
-      "label": "dbt",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "AWS DocumentDB",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "AWS DynamoDB",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "AWS S3",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Amazon ElastiCache",
-      "link": "https://engineering.zalando.com/tags/redis.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
+      "quadrant_text": "Technieken",
       "ring": 2,
-      "label": "Amazon MemoryDB",
+      "ring_text": "Assess",
+      "label": "Decision Intelligence",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Geautomatiseerd decision making (als onderdeel van bestaande applicaties of als aparte software)",
+      "isNew": false
     },
     {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "Amazon Neptune",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "Amazon Redshift",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "Amazon SageMaker Feature Store",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Apache Cassandra",
-      "link": "https://engineering.zalando.com/tags/cassandra.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Consul",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "Druid",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "Elasticsearch",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "HBase",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 1,
-      "label": "HDFS",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Hazelcast",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Memcached",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "MongoDB",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "MySQL",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Oracle DB",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 0,
-      "label": "PostgreSQL",
-      "link": "https://engineering.zalando.com/tags/postgresql.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Redis",
-      "link": "https://engineering.zalando.com/tags/redis.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "Solr",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
       "ring": 2,
-      "label": "Valkey",
-      "link": "https://engineering.zalando.com/tags/redis.html",
+      "ring_text": "Assess",
+      "label": "Celonis",
       "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 2,
-      "ring": 3,
-      "label": "ZooKeeper",
-      "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Tbv AI pushed Process Mining/Improvement",
+      "isNew": false
     },
     {
       "quadrant": 1,
-      "ring": 0,
-      "label": "AWS CloudFormation",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "AWS CloudFront",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "AWS Elemental MediaConvert",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "AWS Lambda",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
       "ring": 2,
-      "label": "AWS Service Catalog",
+      "ring_text": "Assess",
+      "label": "Mermaid",
       "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "AWS Step Functions",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 2,
-      "label": "Amazon Bedrock",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 2,
-      "label": "Amazon Pinpoint",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Amazon SageMaker",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Docker",
-      "link": "https://engineering.zalando.com/tags/docker.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 2,
-      "label": "GraalVM",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 2,
-      "label": "Kotlin Multiplatform",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Kubernetes",
-      "link": "https://engineering.zalando.com/tags/kubernetes.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "Open Policy Agent",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "OpenTelemetry",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "Skipper",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 2,
-      "label": "Slurm",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 1,
-      "label": "WebAssembly",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 1,
-      "ring": 0,
-      "label": "ZMON",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "Clojure",
-      "link": "https://engineering.zalando.com/tags/clojure.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 1,
-      "label": "Dart",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Go",
-      "link": "https://engineering.zalando.com/tags/golang.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "GraphQL",
-      "link": "https://engineering.zalando.com/tags/graphql.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "Haskell",
-      "link": "https://engineering.zalando.com/tags/haskell.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Java",
-      "link": "https://engineering.zalando.com/tags/java.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "JavaScript",
-      "link": "https://engineering.zalando.com/tags/javascript.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Kotlin",
-      "link": "https://engineering.zalando.com/tags/kotlin.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "OpenAPI (Swagger)",
-      "link": "https://engineering.zalando.com/tags/openapi.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Python",
-      "link": "https://engineering.zalando.com/tags/python.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 2,
-      "label": "R",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 3,
-      "label": "Rust",
-      "link": "https://engineering.zalando.com/tags/rust.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Scala",
-      "link": "https://engineering.zalando.com/tags/scala.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "Swift",
-      "link": "https://engineering.zalando.com/tags/swift.html",
-      "active": true,
-      "moved": 0
-    },
-    {
-      "quadrant": 0,
-      "ring": 0,
-      "label": "TypeScript",
-      "link": "https://engineering.zalando.com/tags/typescript.html",
-      "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Genereren van een gestructureerd overzicht/praatplaat (bv BOM, Strategy Map)",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 0,
-      "label": "AWS Kinesis",
+      "quadrant_text": "Technieken",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "AI gepushte KPI besturing",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "Genereren van een besturingsframework",
+      "isNew": false
+    },
+    {
+      "quadrant": 0,
+      "quadrant_text": "Technische tools",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "WindsurfAI",
+      "active": true,
+      "moved": 0,
+      "description": "AI-powered autonomous coding agent and application",
+      "isNew": false
+    },
+    {
+      "quadrant": 1,
+      "quadrant_text": "Functionele tools",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Manus.ai",
+      "active": true,
+      "moved": 0,
+      "description": "Generieke AI assistent (research mn)",
+      "isNew": false
+    },
+    {
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Snowflake Cortex",
+      "active": true,
+      "moved": 0,
+      "description": "Generatieve AI builder binnen Snowflake (met diverse LLMs)",
+      "isNew": false
+    },
+    {
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Collibra",
+      "active": true,
+      "moved": 0,
+      "description": " AI ondersteuning bij omschrijvingen, classificaties, etc; AI copilot om in normale taal te kunnen zoeken binnen Collibra; Machine Learning voor herkennen van DQ patronen en voorstellen DQ rules.",
+      "isNew": false
+    },
+    {
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Precisely",
+      "active": true,
+      "moved": 0,
+      "description": "AI Ondersteuning bij implementeren Data Governance (voorgestelde omschrijvingen, relaties, etc) vanaf versie 2.0",
+      "isNew": false
+    },
+    {
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Document AI",
+      "active": true,
+      "moved": 0,
+      "description": "document-processing (\"OCR\") (in Snowflake) tbv model training en natural language querying van documentverzameling",
+      "isNew": false
+    },
+    {
+      "quadrant": 2,
+      "quadrant_text": "Platform",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Databricks Agents",
+      "active": true,
+      "moved": 0,
+      "description": "AI Agent mogelijkkheden binnen Databricks",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 0,
-      "label": "AWS SNS",
+      "quadrant_text": "Technieken",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Zebra AI",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 0,
-      "label": "AWS SQS",
+      "quadrant_text": "Technieken",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Co-Pilot for PBI",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 0,
-      "label": "Kafka",
-      "link": "https://engineering.zalando.com/tags/apache-kafka.html",
+      "quadrant_text": "Technieken",
+      "ring": 3,
+      "ring_text": "Hold",
+      "label": "DoMo",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "",
+      "isNew": false
     },
     {
       "quadrant": 3,
-      "ring": 0,
-      "label": "Nakadi",
-      "link": "https://nakadi.io",
+      "quadrant_text": "Technieken",
+      "ring": 3,
+      "ring_text": "Hold",
+      "label": "ThoughtSpot",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "",
+      "isNew": false
     },
     {
       "quadrant": 3,
+      "quadrant_text": "Technieken",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Mockaroo",
+      "active": true,
+      "moved": 0,
+      "description": "Fake datasets genereren",
+      "isNew": false
+    },
+    {
+      "quadrant": 3,
+      "quadrant_text": "Technieken",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Forecasting in PBI",
+      "active": true,
+      "moved": 0,
+      "description": "",
+      "isNew": false
+    },
+    {
+      "quadrant": 0,
+      "quadrant_text": "Technische tools",
+      "ring": 2,
+      "ring_text": "Assess",
+      "label": "Roo Code",
+      "active": true,
+      "moved": 0,
+      "description": "AI-powered autonomous coding agent",
+      "isNew": false
+    },
+    {
+      "quadrant": 0,
+      "quadrant_text": "Technische tools",
       "ring": 1,
-      "label": "RabbitMQ",
-      "link": "https://engineering.zalando.com/tags/rabbitmq.html",
+      "ring_text": "Trial",
+      "label": "GitHub CoPilot",
       "active": true,
-      "moved": 0
+      "moved": 0,
+      "description": "AI coding assistant that helps you write code faster and with less effort, allowing you to focus more energy on problem solving",
+      "isNew": false
     }
   ]
 }

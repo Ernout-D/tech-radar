@@ -3,10 +3,10 @@
 
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-<meta name="description" content="Zalando Tech Radar: a tool to visualize technology choices, inspire and support Engineering teams at Zalando to pick the best technologies for new projects">
+<meta name="description" content="Hot ITem AI Adoptie Radar: een tool om AI-technologie adoptie en beschikbaarheid binnen Hot ITem inzichtelijk te maken">
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Zalando Tech Radar</title>
-<link rel="shortcut icon" href="https://www.zalando.de/favicon.ico">
+<title>Hot ITem AI Adoptie Radar</title>
+<link rel="shortcut icon" href="https://www.hotitem.de/favicon.ico">
 
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script src="radar.js"></script>
@@ -23,14 +23,14 @@ fetch('./config.json').then(function(response) {
   return response.json();
 }).then(function(data) {
   radar_visualization({
-    repo_url: "https://github.com/zalando/tech-radar",
-    title: "Zalando Tech Radar",
+    repo_url: "https://github.com/hotitem/tech-radar",
+    title: "Hot ITem AI Adoptie Radar",
     date: data.date,
     quadrants: [
-      { name: "Languages" },
-      { name: "Infrastructure" },
-      { name: "Datastores" },
-      { name: "Data Management" },
+      { name: "Technische Tools" },
+      { name: "Functionele Tools" },
+      { name: "Platform" },
+      { name: "Technieken" },
     ],
     rings: [
       { name: "ADOPT", color: "#5ba300" },
@@ -49,40 +49,35 @@ fetch('./config.json').then(function(response) {
 <tr>
 <td>
 
-<h3>What is the Tech Radar?</h3>
+<h3>Wat is de AI Adoptie Radar?</h3>
 
 <p>
-The Zalando Tech Radar is a list of technologies, complemented by an assessment result, called <em>ring assignment</em>. We use four rings with the following semantics:
+  De Hot ITem Tech Radar is een lijst met technologieën, aangevuld met een beoordelingsresultaat, de zogenoemde ringtoewijzing. We hanteren vier ringen met de volgende betekenis:
 </p>
 
 <ul>
-<li><strong>ADOPT</strong> &mdash; Technologies we have high confidence in to serve our purpose, also in large scale. Technologies with a usage culture in our Zalando production environment, low risk and recommended to be widely used.</li>
-<li><strong>TRIAL</strong> &mdash; Technologies that we have seen work with success in project work to solve a real problem; first serious usage experience that confirm benefits and can uncover limitations. TRIAL technologies are slightly more risky; some engineers in our organization walked this path and will share knowledge and experiences.</li>
-<li><strong>ASSESS</strong> &mdash; Technologies that are promising and have clear potential value-add for us; technologies worth to invest some research and prototyping efforts in to see if it has impact. ASSESS technologies have higher risks; they are often brand new and highly unproven in our organisation. You will find some engineers that have knowledge in the technology and promote it, you may even find teams that have started a prototyping effort.</li>
-<li><strong>HOLD</strong> &mdash; Technologies not recommended to be used for new projects. Technologies that we think are not (yet) worth to (further) invest in. HOLD technologies should not be used for new projects, but usually can be continued for existing projects.</li>
+<li><strong>ADOPT</strong> &mdash; Dit is de ring waarin technologieën worden geplaatst die breed geaccepteerd en bewezen zijn. Het zijn technologieën die HI met vertrouwen kan implementeren en waarvan bewezen is dat ze waarde toevoegen. Deze technologieën worden aanbevolen voor gebruik in productieomgevingen.</li>
+<li><strong>TRIAL</strong> &mdash; In deze ring bevinden zich technologieën die veelbelovend zijn en waarvan wordt verwacht dat ze in de toekomst waarde kunnen toevoegen. Organisaties kunnen ervoor kiezen om deze technologieën in beperkte mate te testen of te experimenteren om hun potentieel beter te begrijpen. Het doel is om te bepalen of deze technologieën geschikt zijn voor bredere adoptie..</li>
+<li><strong>ASSESS</strong> &mdash; Technologieën in deze ring worden beschouwd als relevant, maar er is nog niet voldoende bewijs of ervaring om een duidelijke aanbeveling te doen. Deze technologieën moeten verder worden geëvalueerd om hun potentieel en mogelijke impact beter te begrijpen..</li>
+<li><strong>HOLD</strong> &mdash; Dit is de ring waarin technologieën worden geplaatst die niet worden aanbevolen voor gebruik in productieomgevingen. Het kan gaan om verouderde technologieën.</li>
 </ul>
 
 </td><td>
 
-<h3>What is the purpose?</h3>
+<h3>Wat is het doel van de Radar</h3>
 
 <p>
-The Tech Radar is a tool to inspire and support Engineering teams at Zalando to pick the best technologies for new projects; it provides a platform to share knowledge and experience in technologies, to reflect on technology decisions and continuously evolve our technology landscape. Based on the <a href="https://www.thoughtworks.com/radar">pioneering work of ThoughtWorks</a>, our Tech Radar sets out the changes in technologies that are interesting in software development &mdash; changes that we think our engineering teams should pay attention to and use in their projects.
+Inzicht geven in de AI solution adoptie en beschikbaarheid binnen Hot ITem.
 </p>
 
-<h3>How do we maintain it?</h3>
-
-<p>
-The Tech Radar is maintained by our <em>Principal Engineers</em> &mdash; who facilitate and drive the technology selection discussions at Zalando across the Engineering Community. Assignment of technologies to rings is the outcome of ring change proposals, which are discussed and voted on. The Tech Radar is open for contribution for all Engineering teams at Zalando and depends on their active participation to share lessons learned, pitfalls, and contribute to good practices on using the technologies.<br/>
-</p>
+<h3>Hoe onderhouden we de Radar?</h3>
 
 <p>
-Check out our <a href="https://engineering.zalando.com/tags/tech-radar.html">Engineering Blog</a> for more information on how we approach Technology Selection and use the Tech Radar at Zalando.
+The Tech Radar wordt door ons allen onderhouden. Mocht je een toevoeging willen zien op de Radar draag deze dan aan bij douque@hotitem.nl.<br/>
 </p>
 
-<p>
-<em>BTW, if you would like to create your own Tech Radar &mdash; we have <a href="https://github.com/zalando/tech-radar">open sourced the code</a> to generate this visualization.</em>
-</p>
+
+
 
 </td></tr>
 </table>

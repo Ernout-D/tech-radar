@@ -27,9 +27,9 @@ function radar_visualization(config) {
   config.width = config.width || 1450;
   config.height = config.height || 1000;
   config.colors = ("colors" in config) ? config.colors : {
-      background: "#fff",
-      grid: '#dddde0',
-      inactive: "#ddd"
+      background: "#000",
+      grid: '#fff',
+      inactive: "#fff"
     };
   config.print_layout = ("print_layout" in config) ? config.print_layout : true;
   config.links_in_new_tabs = ("links_in_new_tabs" in config) ? config.links_in_new_tabs : true;
@@ -298,6 +298,7 @@ function radar_visualization(config) {
       .text(config.title)
       .style("font-family", config.font_family)
       .style("font-size", "30")
+      .style("fill", "#fff")
       .style("font-weight", "bold")
 
     // date
@@ -328,6 +329,7 @@ function radar_visualization(config) {
         .text(config.quadrants[quadrant].name)
         .style("font-family", config.font_family)
         .style("font-size", "18px")
+        .style("fill", "#fff")
         .style("font-weight", "bold");
       let previousLegendHeight = 0
       for (let ring = 0; ring < 4; ring++) {
@@ -359,6 +361,7 @@ function radar_visualization(config) {
               .text(function(d) { return d.id + ". " + d.label; })
               .style("font-family", config.font_family)
               .style("font-size", "11px")
+              .style("fill", "#fff")
               .on("mouseover", function(event, d) { showBubble(d); highlightLegendItem(d); })
               .on("mouseout", function(event, d) { hideBubble(d); unhighlightLegendItem(d); })
               .call(wrap_text)
